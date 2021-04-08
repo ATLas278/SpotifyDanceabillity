@@ -2,6 +2,8 @@
 
 # Do Attributes of Songs on Spotify Correlate to a Song's Popularity?
 
+[Introduction](#Introduction)
+
 ## Introduction
 There's a time when we listen a song, and the only thing that can be said is, "This is a hit"! What truly attracts us to certain sounds, and gets us hooked immediately? We'll take a deep dive into a vast collection of songs on Spotify, look at the songs' attributes, and find correlation of those attributes to the songs' popularity.
 
