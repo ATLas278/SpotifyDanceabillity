@@ -4,12 +4,16 @@
 
 [Introduction](#Introduction)
 
+[What's in the Data?](#What's-in-the-Data?)
+
 ## Introduction
 There's a time when we listen a song, and the only thing that can be said is, "This is a hit"! What truly attracts us to certain sounds, and gets us hooked immediately? We'll take a deep dive into a vast collection of songs on Spotify, look at the songs' attributes, and find correlation of those attributes to the songs' popularity.
 
 <br>
 
-## What's in the data?
+## What's in the Data?
 This dataset contains a collection of 174,389 songs on Spotify, with publishing spanning from 1920 to 2021. We'll focus on a subset of the data that spans from 2000 to 2021, narrowing it down to 40,531 songs, and keeping our analysis spotlight on modernity. Each row represents a song and its features, such as popularity, danceability, energy, etc. I'll define what each feature means and represents further down. All of this data is in a CSV file.
 
 <br>
+
+## Pip
