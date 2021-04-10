@@ -89,7 +89,7 @@ While we may theorize that there will be correlation, we'll take a skeptical app
 
 
 #### Significance Level 
-##### $\alpha$ = 0.05
+##### alpha = 0.05
 > If my p-values are above my **significance level**($\alpha$), I will fail to reject my **Null Hypothesis**.
 
 <br>
@@ -100,7 +100,7 @@ While we may theorize that there will be correlation, we'll take a skeptical app
 #### **Danceability**
 > Describes how suitable a track is for dancing based on a combination of musical elements including **tempo, rhythm stability, beat strength, and overall regularity.**
 <br>
-A value of **0.0 is least danceable** and **1.0 is most danceable**.
+A value of **0.0 is least danceable and 1.0 is most danceable**.
 
 <br>
 
