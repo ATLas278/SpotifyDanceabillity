@@ -1,4 +1,4 @@
-![](https://i.guim.co.uk/img/media/ae483ce4f1bfc5497fee1b5387711d1ff0172ec9/232_0_3268_1963/master/3268.jpg?width=1200&quality=85&auto=format&fit=max&s=fcfceea59329a6bee9c9b75dd8d7a055)
+![](https://miro.medium.com/max/1296/1*8nj0WVUjsu5vhQdYyVY7Fg.jpeg)
 
 # Do Attributes of Songs on Spotify Correlate to a Song's Popularity?
 
@@ -28,7 +28,9 @@ This dataset contains a collection of 174,389 songs from the Spotify API that a 
 <br>
 
 ## Exploratory Data Analysis
-I created a subset of the data to keep it relevant to current trends from the year 2000 to 2021. I cleaned it up to only analyze my columns of interest, which are:<br>
+I created a subset of the data to keep it relevant to current trends from the year 2000 to 2021. I cleaned it up to only analyze my columns of interest, which are:
+
+<br>
 
 [Popularity]()
 
@@ -44,8 +46,6 @@ I created a subset of the data to keep it relevant to current trends from the ye
 
 [Mode]()
 
-I then sorted the data by *Popularity* in ascending order from **30** to **100**, dropping it down to **22,030 rows x 9 columns**.
-
 <br>
 
 ### Features of Focus as Popularity Goes Up
@@ -59,4 +59,13 @@ I then sorted the data by *Popularity* in ascending order from **30** to **100**
 |         **96**| ['Ariana Grande']|positions	| 0.737|  0.802|         0.000000|      0.0878|        1|    1|
 |         **96**| ['24kGoldn', 'iann dior'] |Mood (feat. iann dior)| 0.700|  0.722|         0.000000|      0.0369|        1|    0|
 
+
+Above, you'll se we sorted the data by *Popularity* in ascending order from **30** to **100**, dropping it down to **22,030 rows x 9 columns**.
+
 <br>
+
+### Popularity
+> **Spotify Popularity** is an extremely important value that Spotify uses internally to rank all tracks on **a scale from 0 to 100**.
+<br>
+It lets you see how the Spotify algorithm currently evaluates you and your music. The higher your popularity index, the more likely the algorithm is to recommend you to new listeners, and place you in algorithmic playlists like *Release Radar* and *Discover Weekly*.
+
