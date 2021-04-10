@@ -205,9 +205,9 @@ Our binary data is especially of interest. This data has the possibility of real
 ### **Mode**
 > This is the measurement of whether a song is in a **Major(1) or a Minor(0) scale**.
 <br>
-**Major** is a scale in which the third scale degree (the mediant) is a major third above the tonic note. 
+Major is a scale in which the third scale degree (the mediant) is a major third above the tonic note. 
 <br>
-For **Minor**, the third degree is a minor third above the tonic.
+For Minor, the third degree is a minor third above the tonic.
 
 In lamens terms, **Major** is uplifting and pleasant, and **Minor** is more serious, and gloomy.
 
@@ -223,8 +223,8 @@ In lamens terms, **Major** is uplifting and pleasant, and **Minor** is more seri
 
 
 #### Significance Level 
-##### **$\alpha$** = 0.05
-> If my p-value is above my **significance level**($\alpha$), I will fail to reject my **Null Hypothesis**.
+##### alpha = 0.05
+> If my p-value is above my **significance level**(alpha), I will fail to reject my **Null Hypothesis**.
 
 <br>
 <br>
@@ -246,8 +246,8 @@ The majority of songs in the subset are on a major scale, but what about as we a
 This shows us that there's a trend of songs becoming more minor as popularity ascends.
 If we run a [Student's T-Test](https://www.statisticshowto.com/probability-and-statistics/t-test/#:~:text=The%20t%20test%20tells%20you,could%20have%20happened%20by%20chance.&text=A%20t%20test%20can%20tell,those%20results%20happening%20by%20chance.), we discover that the groups are **10 times as different from each other**:
 
-### $t$ = 10.38
-### $p$ = 3.93234546e-25
+### t = 10.38
+### p = 3.93234546e-25
 
 With there being a significance in differences, and a small **p-value**, we can reject our Secondary Null Hypothesis.
 
@@ -280,8 +280,8 @@ We can officially reject the Primary Null Hypothesis once again.
 
 
 #### Significance Level 
-##### **$\alpha$** = 0.05
-> If my p-value is above my **significance level**($\alpha$), I will fail to reject my **Null Hypothesis**.
+##### alpha = 0.05
+> If my p-value is above my **significance level**(alpha), I will fail to reject my **Null Hypothesis**.
 
 <br>
 <br>
@@ -303,8 +303,8 @@ The majority of songs in the subset are clean, but what about as we ascend in po
 This shows us that there's a trend of songs becoming more dirty as popularity ascends.
 We run another [Student's T-Test](https://www.statisticshowto.com/probability-and-statistics/t-test/#:~:text=The%20t%20test%20tells%20you,could%20have%20happened%20by%20chance.&text=A%20t%20test%20can%20tell,those%20results%20happening%20by%20chance.)and we find a monstrous  **30x difference**:
 
-### $t$ = 30.33
-### $p$ = 4.93236088e-192
+### t = 30.33
+### p = 4.93236088e-192
 
 With a massive significant difference and a **p-value** so close to zero, we are absolutely rejecting our Secondary Null Hypothesis
 
