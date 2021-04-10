@@ -90,7 +90,7 @@ While we may theorize that there will be correlation, we'll take a skeptical app
 
 #### Significance Level 
 ##### alpha = 0.05
-> If my p-values are above my **significance level**($\alpha$), I will fail to reject my **Null Hypothesis**.
+> If my p-values are above my **significance level**(alpha), I will fail to reject my **Null Hypothesis**.
 
 <br>
 <br>
@@ -100,7 +100,7 @@ While we may theorize that there will be correlation, we'll take a skeptical app
 #### **Danceability**
 > Describes how suitable a track is for dancing based on a combination of musical elements including **tempo, rhythm stability, beat strength, and overall regularity.**
 <br>
-A value of **0.0 is least danceable and 1.0 is most danceable**.
+A value of 0.0 is least danceable and 1.0 is most danceable.
 
 <br>
 
@@ -132,7 +132,7 @@ We have a 90.4% positive correlation between the two variables, and with a tiny 
 ## Average Energy as Popularity Increases
 
 #### **Energy**
-> Energy is a measure from **0.0 to 1.0** and represents a perceptual measure of intensity and activity. Typically, energetic tracks feel fast, loud, and noisy.
+> Energy is a measure from 0.0 to 1.0 and represents a perceptual measure of intensity and activity. Typically, energetic tracks feel fast, loud, and noisy.
 
 <br>
 
@@ -162,14 +162,14 @@ Surprisingly, we have a 38.7% negative correlation between the two variables, an
 #### **Instrumentalness**
 > Predicts whether a track contains no vocals. 
 <br>
-**The closer the instrumentalness value is to 1.0, the greater likelihood the track contains no vocal content**.
+The closer the instrumentalness value is to 1.0, the greater likelihood the track contains no vocal content.
 
 <br>
 
 #### **Speechiness**
 > Speechiness detects the presence of spoken words in a track. 
 <br>
-**The more exclusively speech-like the recording (e.g. talk show, audio book, poetry), the closer to 1.0 the attribute value**.
+The more exclusively speech-like the recording (e.g. talk show, audio book, poetry), the closer to 1.0 the attribute value.
 
 <br>
 
@@ -205,9 +205,9 @@ Our binary data is especially of interest. This data has the possibility of real
 ### **Mode**
 > This is the measurement of whether a song is in a **Major(1) or a Minor(0) scale**.
 <br>
-A **major scale** is a scale in which the third scale degree (the mediant) is a major third above the tonic note. 
+**Major** is a scale in which the third scale degree (the mediant) is a major third above the tonic note. 
 <br>
-In a **minor scale**, the third degree is a minor third above the tonic.
+For **Minor**, the third degree is a minor third above the tonic.
 
 In lamens terms, **Major** is uplifting and pleasant, and **Minor** is more serious, and gloomy.
 
