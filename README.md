@@ -301,7 +301,7 @@ The majority of songs in the subset are clean, but what about as we ascend in po
 <br>
 
 This shows us that there's a trend of songs becoming more dirty as popularity ascends.
-We run another [Student's T-Test](https://www.statisticshowto.com/probability-and-statistics/t-test/#:~:text=The%20t%20test%20tells%20you,could%20have%20happened%20by%20chance.&text=A%20t%20test%20can%20tell,those%20results%20happening%20by%20chance.)and we find a monstrous  **30x difference**:
+We run another [Student's T-Test](https://www.statisticshowto.com/probability-and-statistics/t-test/#:~:text=The%20t%20test%20tells%20you,could%20have%20happened%20by%20chance.&text=A%20t%20test%20can%20tell,those%20results%20happening%20by%20chance.) and we find a monstrous  **30x difference**:
 
 ### t = 30.33
 ### p = 4.93236088e-192
