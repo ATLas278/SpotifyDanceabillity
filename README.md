@@ -67,22 +67,28 @@ For every column of focus which contain float values, we'll visualize the mean o
 <br>
 It lets you see how the Spotify algorithm currently evaluates you and your music. The higher your popularity index, the more likely the algorithm is to recommend you to new listeners, and place you in algorithmic playlists like *Release Radar* and *Discover Weekly*.
 
+<br>
+
 ### **QUESTION:**
 #### **Are there features with significant correlation to popularity, and are we able to move forward with further linear regression to study the relationships even further?** 
 
 While we may theorize that there will be correlation, we'll take a skeptical approach and test for a correlation of means, with binary data going through an extra test for a difference means.
 
+<br>
+<br>
+
 #### Null Hypothesis
-> There is **no correlation** among features, there is **no significant difference** of means in binary data, and there will be **no need for further study**.
+> There is **no correlation** among features, and there will be **no need for further study**.
 
 #### Alternative Hypothesis
-> There is **definite correlation**, there **is a significant difference** of means in binary data, and we **can further study** the relationships among those values.
+> There is **definite correlation**, and we **can further study** the relationship among those values.
 
 
 #### Significance Level 
 ##### **$\alpha = 0.05$**
 > If my p-values are above my **significance level**($\alpha$), I will fail to reject my **Null Hypothesis**.
 
+<br>
 <br>
 
 # Average Danceability as Popularity Goes Up
@@ -102,11 +108,14 @@ I calculated the average danceability for each popularity rating from 30 - 100.
 **30**|0.536581
 **31**|0.606585
 **32**|0.527000
-**33**|0.516660
-**34**|0.570953
 ...|...
-**92**|0.779800
-**93**|0.675500
 **94**|0.789600
 **95**|0.797000
 **96**|0.718500
+
+<br>
+
+![](Images/danceability.png)
+
+### r = 0.904
+### p-value = 1.3066903836183793e-25
