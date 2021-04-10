@@ -326,3 +326,11 @@ We can officially reject the Primary Null Hypothesis.
 We can clearly state that we were beyond wrong. All of our features of focus show high possibilities of correlating with popularity. This is beautiful, because it means we have further progress in our research to do.
 
 With enough data from this study, we can get down to the micro details, which will unlock the key for us to create a probabilistic feature template to act as a foundation for creating hit songs. 
+
+# Contact Information
+
+#### **Name**
+Gary Monk
+
+#### **Email**
+[realatlas2022@gmail.com]()
