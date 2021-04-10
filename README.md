@@ -1,6 +1,6 @@
-# Do Features of Songs on Spotify Correlate to a Song's Popularity?
+# Probabilistic Popularity
 ![](https://miro.medium.com/max/1296/1*8nj0WVUjsu5vhQdYyVY7Fg.jpeg)
-
+# Do Features of Songs on Spotify Correlate to a Song's Popularity?
 [Introduction](#Introduction)
 
 [Technologies Used](#Technologies-Used)
