@@ -189,11 +189,11 @@ I calculated the average instrumentalness and speechiness for each popularity ra
 
 ![](Images/inst_and_speech.png)
 
-## Instrumentalness
+## Instrumentalness Pearson Correlation
  <font size=3>r = -0.935<br>
  p-value = 5.579106125150611e-31</font>
  
-## Speechiness
+## Speechiness Pearson Correlation
  <font size=3>r = 0.386<br>
  p-value = 0.0012549387454434571</font>
  
