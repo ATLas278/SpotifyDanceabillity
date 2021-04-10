@@ -29,6 +29,7 @@ This dataset contains a collection of 174,389 songs from the Spotify API, with p
 
 ## Exploratory Data Analysis
 I created a subset of the data to keep it relevant to current trends from the year 2000 to 2021. I cleaned it up to only analyze my columns of interest, which are:<br>
+
 [Popularity]()
 
 [Danceability]()
@@ -43,6 +44,9 @@ I created a subset of the data to keep it relevant to current trends from the ye
 
 [Mode]()
 
+<br>
+
+## Features to analyze Correlation as Popularity goes up 
 |popularity |danceability |energy |instrumentalness |speechiness |explicit |mode |
 |:----------|------------:|------:|----------------:|-----------:|--------:|----:|
 |         30|        0.469|  0.918|         0.000392|      0.1730|        0|    1|
@@ -51,3 +55,4 @@ I created a subset of the data to keep it relevant to current trends from the ye
 |         30|        0.912|  0.701|         0.000000|      0.0744|        1|    1|
 |         30|        0.591|  0.625|         0.000000|      0.3080|        0|    1|
 
+<br>
