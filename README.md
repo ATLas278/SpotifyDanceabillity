@@ -91,7 +91,7 @@ While we may theorize that there will be correlation, we'll take a skeptical app
 <br>
 <br>
 
-# Average Danceability as Popularity Goes Up
+# Average Danceability as Popularity Increases
 
 #### **Danceability**
 > Describes how suitable a track is for dancing based on a combination of musical elements including **tempo, rhythm stability, beat strength, and overall regularity.**
@@ -117,5 +117,82 @@ I calculated the average danceability for each popularity rating from 30 - 100.
 
 ![](Images/danceability.png)
 
-### r = 0.904
-### p-value = 1.3066903836183793e-25
+ <font size=5>r = 0.904<br>
+ p-value = 1.3066903836183793e-25</font>
+ 
+ The [Pearson correlation](https://www.medcalc.org/manual/correlation.php#:~:text=Pearson's%20correlation%20coefficient%20r%20with,there%20is%20a%20positive%20correlation.) **r** coefficient is a number between -1 and 1, expessing the degree that on an average, two variables change correspondingly.
+ 
+We have a 90.4% positive correlation between the two variables, and with a tiny **p-value** we can reject our Null Hypothesis.
+ 
+<br>
+
+# Average Energy as Popularity Increases
+
+#### **Energy**
+> Energy is a measure from **0.0 to 1.0** and represents a perceptual measure of intensity and activity. Typically, energetic tracks feel fast, loud, and noisy.
+
+<br>
+
+I calculated the average energy for each popularity rating from 30 - 100.
+
+|popularity|energy|
+|----------|------|
+**30**|0.680514
+**31**|0.596317
+**32**|0.576679
+...|...
+**94**|0.510800
+**95**|0.619500
+**96**|0.762000
+
+<br>
+
+![](Images/energy.png)
+
+ <font size=5>r = -0.387<br>
+ p-value = 0.0012336107098958485</font>
+ 
+Surprisingly, we have a 38.7% negative correlation between the two variables, and with a tiny **p-value** we can reject our Null Hypothesis as well. It isn't much of a correlation but it's enough to still reject.
+
+# Average Instrumentalness and Speechiness as Popularity Increases
+
+#### **Instrumentalness**
+> Predicts whether a track contains no vocals. 
+<br>
+**The closer the instrumentalness value is to 1.0, the greater likelihood the track contains no vocal content**.
+
+<br>
+
+#### **Speechiness**
+> Speechiness detects the presence of spoken words in a track. 
+<br>
+**The more exclusively speech-like the recording (e.g. talk show, audio book, poetry), the closer to 1.0 the attribute value**.
+
+<br>
+
+I calculated the average instrumentalness and speechiness for each popularity rating from 30 - 100.
+
+|popularity|instrumentalness|speechiness|
+|----------|----------------|-----------|
+**30**|1.472500e-01|0.152673|
+**31**|1.362448e-01|0.091273|
+**32**|1.141435e-01|0.108663|
+...|...|...|
+**94**|2.600000e-02|0.132320|
+**95**|2.726000e-04|0.103200|
+**96**|0.000000e+00|0.062350|
+
+<br>
+
+![](Images/inst_and_speech.png)
+
+## Instrumentalness
+ <font size=3>r = -0.935<br>
+ p-value = 5.579106125150611e-31</font>
+ 
+## Speechiness
+ <font size=3>r = 0.386<br>
+ p-value = 0.0012549387454434571</font>
+ 
+ We can already see some major 3-way correlation here. Speech steadily goes up at 38.6% positive correlation as popularity rises, and a massive 93.5% negative correlation as popularity rises! With both of our **p-values** way below our **significance level**, we can once again reject our Null Hypothesis.
+ 
